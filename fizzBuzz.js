@@ -1,19 +1,22 @@
-export default function fizzBuzz(fizzBuzzArgs) {
-  return function(i) {
-    let result = '';
+// export default function fizzBuzz(fizzBuzzArgs) {
+//   return function(i) {
+//     let result = '';
 
-    fizzBuzzArgs.forEach(([num, name]) => {
-      
-      const fizzBuzzCondition = i % num;
+//     fizzBuzzArgs.forEach(([num, name]) => {
 
-      if (fizzBuzzCondition != 0) {
-        result += i;
-        return;
-      }
+//       const fizzBuzzCondition = i % num;
 
-      result += name;
-    });
+//       if (fizzBuzzCondition != 0) {
+//         result += i;
+//         return;
+//       }
 
-    return result;
-  };
-}
+//       result += name;
+
+//     });
+
+//     return result;
+//   };
+// }
+
+export default function fizzBuzz(fizzBuzzArgs) {}
