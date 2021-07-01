@@ -7,7 +7,7 @@ export default function fizzBuzz(fizzBuzzArgs) {
     fizzBuzzArgs.forEach(([num, name]) => {
       const fizzBuzzCondition = i % num;
 
-      if (!fizzBuzzCondition) {
+      if (fizzBuzzCondition != 0) {
         result += i;
         return;
       }
